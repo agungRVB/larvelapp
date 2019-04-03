@@ -27,6 +27,8 @@
                 <td>
                     <a href="{{url('pegawai/'.$row->id.'/edit')}}">Edit</a>
                     <a href="{{url('pegawai-delete/'.$row->id)}}">Delete</a>
+                    <a href="{{url('anak-pegawai/'.$row->id)}}">Delete</a>
+
                 </td>
             </tr>
         @endforeach
